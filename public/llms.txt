@@ -1,0 +1,21 @@
+# TradeSite
+
+TradeSite designs websites for New Zealand trade businesses. The offer is a free, personalised website draft within 24 hours. The customer pays only if they want the finished site.
+
+## Pages
+
+- Home: /
+- Websites for tradies: /websites-for-tradies
+- Pricing: /pricing
+- How it works: /how-it-works
+- Work examples: /portfolio
+- Free draft: /get-a-draft
+- Guides: /blog
+- Electrician websites: /trades/electrician-websites
+- Plumber websites: /trades/plumber-websites
+- Builder websites: /trades/builder-websites
+- Roofer websites: /trades/roofer-websites
+- Painter websites: /trades/painter-websites
+- Landscaper websites: /trades/landscaper-websites
+
+Prices are published in NZD and exclude GST until the business is GST registered. Portfolio pages are concept designs, not client projects.
