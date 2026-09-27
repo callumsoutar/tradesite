@@ -3,19 +3,9 @@ import { getTradePage } from "@/lib/trades";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export async function generateImageMetadata({ params }: Props) {
-  const { slug } = await params;
-  const trade = getTradePage(slug);
-
-  return [
-    {
-      id: slug,
-      alt: trade?.title ?? "Tradie website design",
-      size: ogSize,
-      contentType: ogContentType,
-    },
-  ];
-}
+export const alt = "Website design for a New Zealand trade";
+export const size = ogSize;
+export const contentType = ogContentType;
 
 export default async function Image({ params }: Props) {
   const { slug } = await params;

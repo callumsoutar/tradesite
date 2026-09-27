@@ -3,19 +3,9 @@ import { getPortfolioExample } from "@/lib/portfolio";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export async function generateImageMetadata({ params }: Props) {
-  const { slug } = await params;
-  const example = getPortfolioExample(slug);
-
-  return [
-    {
-      id: slug,
-      alt: example?.title ?? "Website example",
-      size: ogSize,
-      contentType: ogContentType,
-    },
-  ];
-}
+export const alt = "Concept website design for a New Zealand trade business";
+export const size = ogSize;
+export const contentType = ogContentType;
 
 export default async function Image({ params }: Props) {
   const { slug } = await params;
